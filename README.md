@@ -78,7 +78,7 @@ To set up the project locally, follow these steps:
    python app.py
 
 ### 🗂️ Project Structure
-      ```bash
+     
       /MoneyMind
       │
       ├── /frontend              # React Frontend
