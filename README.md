@@ -93,8 +93,9 @@ To set up the project locally, follow these steps:
 
 
 ### 🧪 Testing
-   Manual testing of payment workflows
-   Validation of interest calculation logic
+  **Manual testing of payment workflow** 
+  **Validation of interest calculation logic** 
+  **API testing using Postman** 
    API testing using Postman
    
 ### 📜 License
