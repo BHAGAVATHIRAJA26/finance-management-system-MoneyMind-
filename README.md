@@ -48,30 +48,37 @@ Before you begin, ensure you have the following installed:
 
 To set up the project locally, follow these steps:
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/BHAGAVATHIRAJA26/finance-management-system-MoneyMind-.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BHAGAVATHIRAJA26/finance-management-system-MoneyMind-.git
 
-2.Navigate into the project directory
+2. Navigate into the project directory:
    ```bash
    cd MoneyMind
 
-3.Frontend Setup
+3. Navigate into the Frontend directory:
    ```bash
    cd frontend
    npm install
    npm run dev
 
-
-4.Backend Setup
+4. Navigate into the Backend directory:
    ```bash
    cd backend
    pip install -r requirements.txt
    python app.py
 
 
+5. Run the frontend:
+   ```bash
+   npm run dev
+
+6. Run the backend:
+   ```bash
+   python app.py
+
 ### 🗂️ Project Structure
- ```bash
+      ```bash
 MoneyMind
 │
 ├── frontend                 # React Frontend
@@ -83,12 +90,23 @@ MoneyMind
     ├── app.py               # Main backend file
     ├── database             # Database configuration
     └── models               # Data models
-
-###🧪 Testing
-
-     Manual testing of payment workflows
-     Validation of interest calculation logic
-     API testing using Postman
-
+                    
+### 🧪 Testing
+   Manual testing of payment workflows
+   Validation of interest calculation logic
+   API testing using Postman
+   
 ### 📜 License
 This project is licensed under the [MIT License](./LICENSE). See the LICENSE file for details.
+
+### 📞 Contact
+
+For any inquiries or feedback, feel free to reach out:
+
+- **Name**: Bhagavathi Raja S
+- **Email**: [bhagavathiraja.s26@gmail.com](mailto:bhagavathiraja.s26@gmail.com)
+- **GitHub**: [BHAGAVATHIRAJA26](https://github.com/BHAGAVATHIRAJA26)
+- **LinkedIn**: [Bhagavathi Raja.S](https://www.linkedin.com/in/bhagavathi-raja-s-014aa0296/)
+
+
+
