@@ -79,18 +79,22 @@ To set up the project locally, follow these steps:
 
 ### 🗂️ Project Structure
       ```bash
-/MoneyMind
-│
-├── frontend                 # React Frontend
-│   ├── src                  # Main source files
-│   ├── assets               # Images & static files
-│   └── public               # Public files
-│
-└── backend                  # Flask Backend
-    ├── app.py               # Main backend file
-    ├── database             # Database configuration
-    └── models               # Data models
-                    
+      ```bash
+      /AgroConnect
+      │
+      ├── /frontend              # Frontend source files
+      │   ├── /src               # Main source files
+      │   ├── /components        # React components
+      │   ├── /pages             # Pages of the application
+      │   └── index.js           # Entry point for the frontend
+      │
+      └── /backend               # Backend source files
+          ├── /src               # Main source files
+          ├── /controllers       # Controllers for handling requests
+          ├── /models            # JPA models for database entities
+          ├── /repositories      # MongoDB repositories for data access
+          └── Application.java    # Spring Boot application entry point
+
 ### 🧪 Testing
    Manual testing of payment workflows
    Validation of interest calculation logic
