@@ -99,15 +99,10 @@ git clone https://github.com/BHAGAVATHIRAJA26/finance-management-system-MoneyMin
 cd frontend
 npm install
 npm run dev
-
-##▶️ Backend Setup
-```bash
 cd backend
 pip install -r requirements.txt
 python app.py
 
-##🗂️ Project Structure
-```bash
 MoneyMind
 │
 ├── frontend                 # React Frontend
@@ -119,3 +114,46 @@ MoneyMind
     ├── app.py               # Main backend file
     ├── database             # Database configuration
     └── models               # Data models
+
+
+🚀 Features
+
+Loan & interest management (Daily / Weekly / Monthly)
+
+Automatic interest calculation
+
+Payment tracking & balance updates
+
+Customer management
+
+Secure authentication
+
+Responsive UI
+🧪 Testing
+
+Manual testing of payment workflows
+
+Validation of interest calculation logic
+
+API testing using Postman
+
+📈 Future Enhancements
+
+Role-based access control (Admin / Staff)
+
+Financial analytics dashboard
+
+PDF / Excel report generation
+
+Cloud deployment (AWS / Render)
+
+📜 License
+
+This project is licensed under the MIT License.
+
+📞 Contact
+
+Bhagavathi Raja
+📧 Email: bhagavathiraja.s26@gmail.com
+
+🔗 GitHub: https://github.com/BHAGAVATHIRAJA26
