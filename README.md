@@ -94,3 +94,28 @@ Ensure the following are installed:
 ```bash
 git clone https://github.com/BHAGAVATHIRAJA26/finance-management-system-MoneyMind-.git
 
+## ▶️ Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+
+##▶️ Backend Setup
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+
+##🗂️ Project Structure
+```bash
+MoneyMind
+│
+├── frontend                 # React Frontend
+│   ├── src                  # Main source files
+│   ├── assets               # Images & static files
+│   └── public               # Public files
+│
+└── backend                  # Flask Backend
+    ├── app.py               # Main backend file
+    ├── database             # Database configuration
+    └── models               # Data models
