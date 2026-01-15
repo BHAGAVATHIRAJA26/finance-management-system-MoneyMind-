@@ -79,7 +79,7 @@ To set up the project locally, follow these steps:
 
 ### 🗂️ Project Structure
       ```bash
-MoneyMind
+/MoneyMind
 │
 ├── frontend                 # React Frontend
 │   ├── src                  # Main source files
