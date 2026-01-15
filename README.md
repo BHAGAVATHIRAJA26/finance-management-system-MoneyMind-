@@ -78,8 +78,7 @@ To set up the project locally, follow these steps:
    python app.py
 
 ### 🗂️ Project Structure
-      ```bash
-      ```bash
+      
       /AgroConnect
       │
       ├── /frontend              # Frontend source files
