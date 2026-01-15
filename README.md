@@ -1,16 +1,136 @@
-# React + Vite
+💰 MoneyMind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Finance Management System
 
-Currently, two official plugins are available:
+MoneyMind is a full-stack finance management web application designed to help users manage loans, interest calculations, payments, and customer records efficiently. It provides a user-friendly interface for tracking financial data and automating interest-based calculations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
+📊 Loan & Interest Management
 
-## React Compiler
+Supports Daily, Weekly, and Monthly collection models
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Automatic interest calculation based on loan type
 
-## Expanding the ESLint configuration
+Due date and remaining days calculation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💸 Payment Tracking
+
+Record customer payments
+
+Automatically update remaining balance
+
+Interest updates after each payment
+
+👤 Customer Management
+
+Add, update, and view customer details
+
+Track loan history and payment status
+
+🔐 Secure Authentication
+
+User login & registration
+
+Protected routes for authorized access
+
+🖥️ Interactive UI
+
+Responsive and clean UI built with React
+
+Smooth navigation and real-time updates
+
+📡 API-Based Backend
+
+RESTful APIs built using Flask
+
+Secure communication between frontend and backend
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+Vite
+
+HTML, CSS, JavaScript
+
+Axios
+
+Backend
+
+Python
+
+Flask
+
+MySQL
+
+REST API
+
+⚙️ Getting Started
+🔧 Prerequisites
+
+Make sure you have the following installed:
+
+Node.js
+
+Python (3.x)
+
+MySQL
+
+Git
+
+📥 Installation & Setup
+🔹 Clone the Repository
+git clone https://github.com/BHAGAVATHIRAJA26/finance-management-system-MoneyMind-.git
+cd MoneyMind
+
+🔹 Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+🔹 Backend Setup
+cd backend
+pip install -r requirements.txt
+python app.py
+
+🗂️ Project Structure
+MoneyMind/
+│
+├── frontend/                # React frontend
+│   ├── src/                 # Components & pages
+│   ├── public/              # Static assets
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/                 # Flask backend
+│   ├── app.py               # Main application
+│   ├── routes/              # API routes
+│   ├── models/              # Database models
+│   └── utils/               # Helper functions
+│
+├── README.md
+└── .gitignore
+
+🔒 Environment Variables
+
+Create a .env file in the backend folder:
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=moneymind
+SECRET_KEY=your_secret_key
+
+📜 License
+
+This project is licensed under the MIT License.
+
+📞 Contact
+
+Name: Bhagavathi Raja
+📧 Email: bhagavathiraja.s26@gmail.com
+
+🔗 GitHub: BHAGAVATHIRAJA26
+
+💼 LinkedIn: https://www.linkedin.com/in/bhagavathi-raja-s-014aa0296/
