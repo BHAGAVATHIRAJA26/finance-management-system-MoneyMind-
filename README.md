@@ -79,17 +79,17 @@ To set up the project locally, follow these steps:
 
 ### 🗂️ Project Structure
       ```bash
-/MoneyMind
-│
-├── /frontend                 # React Frontend
-│   ├── /src                  # Main source files
-│   ├── /assets               # Images & static files
-│   └── /public               # Public files
-│
-└── /backend                  # Flask Backend
-    ├── /app.py               # Main backend file
-    ├── /database             # Database configuration
-    └──/ models               # Data models
+      /MoneyMind
+      │
+      ├── /frontend              # React Frontend
+      │   ├── /src               # Main source files
+      │   ├── /assets            # Images & static files
+      │   └── public             # Public files
+      │
+      └── /backend               # Flask Backend
+          ├── /app.py            # Main backend file
+          ├── /database          # Database configuration
+          └──  models            # Data models
 
 
 ### 🧪 Testing
