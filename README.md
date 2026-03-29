@@ -96,7 +96,7 @@ To set up the project locally, follow these steps:
   **Manual testing of payment workflow** 
   **Validation of interest calculation logic** 
   **API testing using Postman** 
-   API testing using Postman
+   
    
 ### 📜 License
 This project is licensed under the [MIT License](./LICENSE). See the LICENSE file for details.
