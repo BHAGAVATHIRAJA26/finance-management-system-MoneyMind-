@@ -515,3 +515,147 @@ button:hover{
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* ============================================================
+   RESPONSIVE MEDIA QUERIES
+   These rules only activate at specific screen widths.
+   All styles above are completely untouched.
+   ============================================================ */
+
+/* ------- Tablet (≤ 768px) ------- */
+@media (max-width: 768px) {
+  /* Navbar */
+  #b9 {
+    padding-left: 20px;
+    gap: 24px;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* Hero headline */
+  #a6 {
+    font-size: 52px;
+    width: 90%;
+    left: 50%;
+  }
+
+  /* Section headings */
+  #a7  { font-size: 44px; margin-left: 20px; }
+  #a9  { font-size: 90px; }
+  #f3  { font-size: 48px; padding-left: 20px; }
+  #b2  { font-size: 40px; padding-left: 20px; }
+  #g5  { font-size: 38px; }
+  #a11 { font-size: 48px; padding-left: 20px; }
+  #a12 { font-size: 48px; padding-left: 20px; }
+
+  /* Body / paragraph text */
+  #b3 { width: 90%; padding-left: 20px; }
+  #b7 { width: 90%; margin-left: 20px; padding-left: 0; }
+  #g6 { margin-left: 20px; margin-right: 20px; }
+
+  /* Images / cards */
+  #a8 { width: 90%; margin-left: 20px; margin-right: 20px; }
+  #b4 { width: 90%; margin-left: 20px; }
+  #b6 { width: 90%; }
+  #c1 { width: 90%; }
+  #c0 { width: 90%; margin-left: 10px; }
+
+  /* Flex / grid layout */
+  #ck  { flex-wrap: wrap; }
+  #oio { flex-wrap: wrap; gap: 20px; padding-left: 10px; }
+  #pop { grid-template-columns: 1fr; }
+
+  /* Forms */
+  #f1 { padding-left: 20px; }
+  #f2 { margin-left: 20px; width: 90%; }
+  #f4 { padding-left: 20px; padding-right: 20px; }
+  #f6 { margin-left: 20px; }
+  #f7 { width: 160px; }
+
+  /* Dashboard */
+  #g   { width: 95%; margin-left: 10px; height: auto; }
+  #g2  { width: 90%; margin-left: 10px; }
+  #g4  { width: 95%; margin-left: 10px; height: auto; }
+  #uuu { width: 95%; margin-left: 10px; }
+
+  /* Login / register card */
+  #c1t { height: auto; padding: 20px; }
+  #c6  { padding-left: 20px; }
+
+  /* Misc */
+  #d1 { width: 90%; }
+  #d3 { width: 90%; }
+  #fr { margin-left: 20px; }
+}
+
+/* ------- Mobile (≤ 480px) ------- */
+@media (max-width: 480px) {
+  /* Navbar */
+  #b9 {
+    padding-left: 10px;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  /* Hero headline */
+  #a6 {
+    font-size: 32px;
+    top: 40%;
+  }
+
+  /* Section headings */
+  #a2  { font-size: 36px; padding-left: 10px; }
+  #ab2 { font-size: 28px; padding-left: 10px; }
+  #a7  { font-size: 30px; margin-left: 10px; }
+  #a9  { font-size: 60px; }
+  #a10 { font-size: 20px; }
+  #f3  { font-size: 32px; padding-left: 10px; display: block; }
+  #b2  { font-size: 28px; padding-left: 10px; }
+  #g5  { font-size: 26px; }
+  #a11 { font-size: 32px; padding-left: 10px; margin-top: 60px; height: auto; }
+  #a12 { font-size: 32px; padding-left: 10px; margin-top: 60px; }
+
+  /* Body / paragraph text */
+  #b3 { font-size: 15px; }
+  #b7 { font-size: 16px; }
+  #b8 { font-size: 30px; margin-top: 40px; }
+
+  /* Images / cards */
+  #a8 { width: 95%; margin-left: 10px; }
+  #b4 { display: none; } /* hide decorative side image on tiny screens */
+  #c1 { width: 95%; height: auto; }
+  #c0 { width: 95%; height: auto; }
+
+  /* Buttons */
+  #f7    { width: 130px; font-size: 14px; padding: 8px; }
+  button { font-size: 14px; }
+
+  /* Pop-up modal */
+  .pop { width: 95%; height: auto; padding: 40px 20px; }
+
+  /* Feature list */
+  .custom-height { width: 95%; height: auto; }
+  .feature-item  { font-size: 14px; padding: 14px 16px; }
+
+  /* Forms */
+  .f111 { margin-left: 10px; width: 90%; }
+  #f2   { width: 95%; margin-left: 10px; }
+  #f4   { padding-left: 10px; padding-right: 10px; }
+  #f6   { margin-left: 10px; }
+
+  /* Dashboard */
+  #g   { width: 98%; margin-left: 5px; }
+  #g4  { width: 98%; margin-left: 5px; }
+  #uuu { width: 98%; margin-left: 5px; }
+
+  /* Login card */
+  #c5  { font-size: 24px; }
+  #c16 { padding-left: 10px; }
+
+  /* Layout overrides */
+  #ck  { flex-direction: column; }
+  #oio { flex-direction: column; }
+  #pop { margin: 20px 10px; }
+  #fr  { margin-left: 10px; }
+}
