@@ -516,146 +516,348 @@ button:hover{
 }
 
 /* ============================================================
-   RESPONSIVE MEDIA QUERIES
-   These rules only activate at specific screen widths.
-   All styles above are completely untouched.
+   RESPONSIVE MEDIA QUERIES — FULL AUDIT
+   Every selector in this file is checked below.
+   Rules above line 518 are 100% untouched.
+
+   Breakpoints:
+     ≤ 1024px  →  Large tablet / small laptop
+     ≤  768px  →  Tablet / landscape phone
+     ≤  480px  →  Mobile (portrait)
    ============================================================ */
 
-/* ------- Tablet (≤ 768px) ------- */
+
+/* ==============================================
+   ≤ 1024px  |  Large Tablet / Small Laptop
+   ============================================== */
+@media (max-width: 1024px) {
+
+  /* ── Topbar / header ── */
+  #a1 { height: auto; padding: 10px 0; }
+
+  /* ── Hero section ── */
+  #a2  { font-size: 48px; }
+  #ab2 { font-size: 38px; }
+  #a3  { margin-left: 100px; }
+  #a4  { padding-left: 100px; }
+  #a44 { margin-top: 80px; }
+  #a5  { text-align: center; }
+  #a6  { font-size: 72px; width: 80%; left: 50%; }
+
+  /* ── Buttons / nav classes ── */
+  .cc  { font-size: 18px; }
+  .c99 { font-size: 18px; }
+
+  /* ── About section ── */
+  #a7  { font-size: 56px; margin-left: 40px; }
+  #a8  { width: 45%; margin-left: 30px; }
+  #ck  { flex-wrap: wrap; gap: 20px; }
+  #a9  { font-size: 110px; }
+  #a10 { font-size: 26px; }
+  #a11 { font-size: 60px; padding-left: 30px; height: auto; }
+  #a12 { font-size: 60px; padding-left: 30px; }
+
+  /* ── Form / upload section (f1…f8) ── */
+  #f1 { padding-left: 200px; height: auto; }
+  #f2 { margin-left: 200px; }
+  #f3 { font-size: 60px; padding-left: 200px; }
+  #f4 { padding-left: 200px; padding-right: 100px; }
+  #f6 { margin-left: 200px; }
+  #f7 { width: 180px; }
+  #f8 { margin-left: 20px; margin-right: 20px; }
+  .f111 { margin-left: 200px; }
+
+  /* ── Card (c1) ── */
+  #c1 { width: 340px; height: auto; }
+
+  /* ── Sidebar / content (b1…b10) ── */
+  #b1 { margin-left: 60px; }
+  #b2 { font-size: 48px; padding-left: 40px; }
+  #b3 { width: 55%; padding-left: 40px; }
+  #b4 { width: 45%; margin-left: auto; }
+  #b5 { height: auto; }
+  #b6 { width: 55%; }
+  #b7 { width: 70%; margin-left: 40px; }
+  #b8 { font-size: 40px; }
+  #b9 { padding-left: 80px; gap: 40px; }
+
+  /* ── Nav ── */
+  #bg9 { padding-left: 20px; }
+
+  /* ── Card / plot boxes ── */
+  #c0  { width: 600px; height: auto; }
+  #pop { grid-template-columns: repeat(2, 1fr); gap: 8px; margin: 30px 20px; }
+  #fr  { margin-left: 100px; }
+  #plo { width: 104px; height: 143px; }   /* unchanged — already fixed size */
+
+  /* ── Login card ── */
+  #c1t { height: auto; padding: 16px 20px; }
+  #c5  { font-size: 34px; }
+  #c6  { padding-left: 100px; }
+
+  /* ── Tables / data ── */
+  #d1  { font-size: 18px; padding-left: 30px; }
+  #d13 { font-size: 18px; padding-left: 30px; }
+  #d3  { width: 60%; }
+  #oio { gap: 24px; }
+  #rrr { gap: 10px; }
+  #uuu { width: 85%; margin-left: 60px; }
+
+  /* ── Register / login misc ── */
+  #c16 { padding-left: 40px; }
+
+  /* ── Dashboard ── */
+  #g   { width: 85%; margin-left: 80px; height: auto; }
+  #g2  { width: 50%; margin-left: 30px; }
+  #g4  { width: 80%; margin-left: 80px; height: auto; }
+  #g5  { font-size: 48px; height: auto; }
+  #g6  { margin-left: 60px; }
+
+  /* ── Pop-up modal ── */
+  .pop { width: 420px; }
+
+  /* ── Feature list ── */
+  .custom-height { width: 90%; }
+  .feature-list  { margin-top: 20px; }
+  .feature-item  { font-size: 15px; padding: 16px 18px; }
+}
+
+
+/* ==============================================
+   ≤ 768px  |  Tablet / Landscape Phone
+   ============================================== */
 @media (max-width: 768px) {
-  /* Navbar */
+
+  /* ── Topbar / header ── */
+  #a1 { height: auto; padding: 8px 0; }
+
+  /* ── Hero section ── */
+  #a2  { font-size: 36px; padding-left: 10px; display: block; }
+  #ab2 { font-size: 28px; padding-left: 10px; display: block; }
+  #a3  { margin-left: 20px; padding-left: 10px; display: block; font-size: 18px; }
+  #a4  { padding-left: 20px; margin-left: 0; display: block; font-size: 18px; }
+  #a44 { margin-top: 40px; padding-left: 10px; display: block; font-size: 18px; }
+  #a5  { text-align: center; }
+  #a6  { font-size: 52px; width: 92%; left: 50%; top: 50%; }
+
+  /* ── Buttons / nav classes ── */
+  .cc  { font-size: 16px; }
+  .c99 { font-size: 16px; }
+
+  /* ── About section ── */
+  #a7  { font-size: 44px; margin-left: 20px; margin-top: 40px; }
+  #a8  { width: 90%; margin-left: 20px; margin-right: 20px; }
+  #ck  { flex-direction: column; flex-wrap: wrap; }
+  #a9  { font-size: 90px; }
+  #a10 { font-size: 22px; }
+  #a11 { font-size: 48px; padding-left: 20px; margin-top: 60px; height: auto; margin-bottom: 40px; }
+  #a12 { font-size: 48px; padding-left: 20px; margin-top: 60px; }
+
+  /* ── Form / upload section ── */
+  #f1  { padding-left: 20px; height: auto; margin-top: 40px; }
+  #f2  { margin-left: 20px; width: 90%; }
+  #f3  { font-size: 48px; padding-left: 20px; display: block; }
+  #f4  { padding-left: 20px; padding-right: 20px; }
+  #f6  { margin-left: 20px; }
+  #f7  { width: 160px; }
+  #f8  { margin-left: 10px; margin-right: 10px; margin-top: 40px; }
+  #f71 { width: 160px; }
+  .f111 { margin-left: 20px; width: 90%; }
+
+  /* ── Card (c1) ── */
+  #c1 { width: 90%; margin-left: auto; margin-right: auto; height: auto; }
+
+  /* ── Sidebar / content (b1…b10) ── */
+  #b1 { margin-left: 20px; }
+  #b2 { font-size: 40px; padding-left: 20px; margin-top: 40px; }
+  #b3 { width: 90%; padding-left: 20px; }
+  #b4 { width: 90%; margin-left: 20px; height: auto; }
+  #b5 { height: auto; margin-top: 60px; margin-bottom: 40px; }
+  #b6 { width: 90%; margin-left: 20px; }
+  #b7 { width: 90%; margin-left: 20px; padding-left: 0; padding-bottom: 20px; }
+  #b8 { font-size: 36px; margin-top: 40px; }
   #b9 {
     padding-left: 20px;
-    gap: 24px;
+    gap: 20px;
     flex-wrap: wrap;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  #b10 { padding-top: 0; }
 
-  /* Hero headline */
-  #a6 {
-    font-size: 52px;
-    width: 90%;
-    left: 50%;
-  }
+  /* ── Nav ── */
+  .nav-item { list-style-type: none; }
+  #bg9 { padding-left: 10px; }
 
-  /* Section headings */
-  #a7  { font-size: 44px; margin-left: 20px; }
-  #a9  { font-size: 90px; }
-  #f3  { font-size: 48px; padding-left: 20px; }
-  #b2  { font-size: 40px; padding-left: 20px; }
-  #g5  { font-size: 38px; }
-  #a11 { font-size: 48px; padding-left: 20px; }
-  #a12 { font-size: 48px; padding-left: 20px; }
+  /* ── Card / plot boxes ── */
+  #c0  { width: 90%; margin-left: 10px; height: auto; }
+  #pop { grid-template-columns: 1fr; gap: 8px; margin: 20px 10px; }
+  #fr  { margin-left: 20px; height: auto; }
+  #plo { width: 100%; height: auto; border-radius: 10px; }
+  #bo  { cursor: pointer; }
 
-  /* Body / paragraph text */
-  #b3 { width: 90%; padding-left: 20px; }
-  #b7 { width: 90%; margin-left: 20px; padding-left: 0; }
-  #g6 { margin-left: 20px; margin-right: 20px; }
+  /* ── Login card ── */
+  #c1t { height: auto; padding: 16px 20px; border-radius: 10px; }
+  #c5  { font-size: 28px; }
+  #c6  { padding-left: 20px; padding-top: 20px; }
 
-  /* Images / cards */
-  #a8 { width: 90%; margin-left: 20px; margin-right: 20px; }
-  #b4 { width: 90%; margin-left: 20px; }
-  #b6 { width: 90%; }
-  #c1 { width: 90%; }
-  #c0 { width: 90%; margin-left: 10px; }
-
-  /* Flex / grid layout */
-  #ck  { flex-wrap: wrap; }
+  /* ── Tables / data ── */
+  #d1  { font-size: 17px; padding-left: 20px; width: 90%; }
+  #d13 { font-size: 17px; padding-left: 20px; }
+  #d3  { width: 90%; }
   #oio { flex-wrap: wrap; gap: 20px; padding-left: 10px; }
-  #pop { grid-template-columns: 1fr; }
+  #rrr { flex-wrap: wrap; gap: 10px; padding-top: 14px; }
+  #uuu { width: 95%; margin-left: 10px; height: auto; }
 
-  /* Forms */
-  #f1 { padding-left: 20px; }
-  #f2 { margin-left: 20px; width: 90%; }
-  #f4 { padding-left: 20px; padding-right: 20px; }
-  #f6 { margin-left: 20px; }
-  #f7 { width: 160px; }
+  /* ── Register / login misc ── */
+  #c16 { padding-left: 20px; }
 
-  /* Dashboard */
+  /* ── Dashboard ── */
   #g   { width: 95%; margin-left: 10px; height: auto; }
   #g2  { width: 90%; margin-left: 10px; }
   #g4  { width: 95%; margin-left: 10px; height: auto; }
-  #uuu { width: 95%; margin-left: 10px; }
+  #g5  { font-size: 38px; height: auto; }
+  #g6  { margin-left: 20px; margin-right: 20px; }
 
-  /* Login / register card */
-  #c1t { height: auto; padding: 20px; }
-  #c6  { padding-left: 20px; }
+  /* ── Pop-up modal ── */
+  .pop { width: 92%; height: auto; padding-top: 60px; }
 
-  /* Misc */
-  #d1 { width: 90%; }
-  #d3 { width: 90%; }
-  #fr { margin-left: 20px; }
+  /* ── Feature list ── */
+  .custom-height { width: 95%; height: auto; line-height: 40px; }
+  .feature-list  { margin-top: 20px; }
+  .feature-item  { font-size: 15px; padding: 16px 18px; }
 }
 
-/* ------- Mobile (≤ 480px) ------- */
+
+/* ==============================================
+   ≤ 480px  |  Mobile (Portrait)
+   ============================================== */
 @media (max-width: 480px) {
-  /* Navbar */
-  #b9 {
-    padding-left: 10px;
-    gap: 12px;
-    justify-content: center;
-  }
 
-  /* Hero headline */
-  #a6 {
-    font-size: 32px;
-    top: 40%;
-  }
+  /* ── Topbar / header ── */
+  #a1 { height: auto; padding: 6px 0; }
 
-  /* Section headings */
-  #a2  { font-size: 36px; padding-left: 10px; }
-  #ab2 { font-size: 28px; padding-left: 10px; }
-  #a7  { font-size: 30px; margin-left: 10px; }
-  #a9  { font-size: 60px; }
-  #a10 { font-size: 20px; }
-  #f3  { font-size: 32px; padding-left: 10px; display: block; }
-  #b2  { font-size: 28px; padding-left: 10px; }
-  #g5  { font-size: 26px; }
-  #a11 { font-size: 32px; padding-left: 10px; margin-top: 60px; height: auto; }
-  #a12 { font-size: 32px; padding-left: 10px; margin-top: 60px; }
+  /* ── Hero section ── */
+  #a2  { font-size: 26px; padding-left: 8px; margin-top: 60px; }
+  #ab2 { font-size: 22px; padding-left: 8px; margin-top: 60px; }
+  #a3  { margin-left: 8px; padding-left: 8px; font-size: 15px; }
+  #a4  { padding-left: 8px; margin-left: 0; font-size: 15px; }
+  #a44 { margin-top: 30px; padding-left: 8px; font-size: 15px; margin-left: 0; }
+  #a5  { text-align: center; }
+  #a6  { font-size: 30px; width: 95%; left: 50%; top: 45%; }
 
-  /* Body / paragraph text */
-  #b3 { font-size: 15px; }
-  #b7 { font-size: 16px; }
-  #b8 { font-size: 30px; margin-top: 40px; }
+  /* ── Buttons / nav classes ── */
+  .cc  { font-size: 14px; }
+  .c99 { font-size: 14px; }
 
-  /* Images / cards */
-  #a8 { width: 95%; margin-left: 10px; }
-  #b4 { display: none; } /* hide decorative side image on tiny screens */
-  #c1 { width: 95%; height: auto; }
-  #c0 { width: 95%; height: auto; }
-
-  /* Buttons */
-  #f7    { width: 130px; font-size: 14px; padding: 8px; }
-  button { font-size: 14px; }
-
-  /* Pop-up modal */
-  .pop { width: 95%; height: auto; padding: 40px 20px; }
-
-  /* Feature list */
-  .custom-height { width: 95%; height: auto; }
-  .feature-item  { font-size: 14px; padding: 14px 16px; }
-
-  /* Forms */
-  .f111 { margin-left: 10px; width: 90%; }
-  #f2   { width: 95%; margin-left: 10px; }
-  #f4   { padding-left: 10px; padding-right: 10px; }
-  #f6   { margin-left: 10px; }
-
-  /* Dashboard */
-  #g   { width: 98%; margin-left: 5px; }
-  #g4  { width: 98%; margin-left: 5px; }
-  #uuu { width: 98%; margin-left: 5px; }
-
-  /* Login card */
-  #c5  { font-size: 24px; }
-  #c16 { padding-left: 10px; }
-
-  /* Layout overrides */
+  /* ── About section ── */
+  #a7  { font-size: 30px; margin-left: 10px; margin-top: 30px; }
+  #a8  { width: 95%; margin-left: 10px; margin-right: 10px; margin-top: 20px; }
   #ck  { flex-direction: column; }
-  #oio { flex-direction: column; }
-  #pop { margin: 20px 10px; }
-  #fr  { margin-left: 10px; }
+  #a9  { font-size: 60px; }
+  #a10 { font-size: 18px; }
+  #a11 {
+    font-size: 30px;
+    padding-left: 10px;
+    margin-top: 40px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  #a12 { font-size: 30px; padding-left: 10px; margin-top: 40px; }
+
+  /* ── Form / upload section ── */
+  #f1  { padding-left: 10px; height: auto; margin-top: 30px; }
+  #f2  { margin-left: 10px; width: 95%; }
+  #f3  { font-size: 28px; padding-left: 10px; display: block; }
+  #f4  { padding-left: 10px; padding-right: 10px; }
+  #f6  { margin-left: 10px; }
+  #f7  { width: 120px; font-size: 13px; padding: 8px; }
+  #f8  { margin-left: 6px; margin-right: 6px; margin-top: 30px; padding: 12px; }
+  #f71 { width: 120px; font-size: 13px; padding: 8px; }
+  .f111 { margin-left: 8px; width: 95%; }
+
+  /* ── Card (c1) ── */
+  #c1 { width: 95%; margin-left: auto; margin-right: auto; height: auto; padding: 8px; }
+
+  /* ── Sidebar / content (b1…b10) ── */
+  #b1 { margin-left: 10px; }
+  #b2 { font-size: 28px; padding-left: 10px; margin-top: 30px; }
+  #b3 { width: 95%; padding-left: 10px; font-size: 15px; }
+  #b4 { display: none; }       /* hide decorative image — too large for mobile */
+  #b5 { height: auto; margin-top: 40px; margin-bottom: 30px; }
+  #b6 { width: 95%; margin-left: 10px; height: auto; }
+  #b7 {
+    width: 95%;
+    margin-left: 10px;
+    padding-left: 0;
+    padding-bottom: 16px;
+    font-size: 16px;
+  }
+  #b8 { font-size: 26px; margin-top: 30px; }
+  #b9 {
+    padding-left: 8px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #b10 { padding-top: 0; }
+
+  /* ── Nav ── */
+  .nav-item { list-style-type: none; font-size: 14px; }
+  #bg9 { padding-left: 6px; }
+
+  /* ── Card / plot boxes ── */
+  #c0  { width: 95%; margin-left: 6px; height: auto; }
+  #pop { grid-template-columns: 1fr; margin: 10px 6px; gap: 6px; }
+  #fr  { margin-left: 10px; height: auto; width: 95%; }
+  #plo { width: 100%; height: auto; }
+  #bo  { cursor: pointer; }
+
+  /* ── Login card ── */
+  #c1t { height: auto; padding: 12px 16px; }
+  #c5  { font-size: 22px; }
+  #c6  { padding-left: 10px; padding-top: 16px; }
+
+  /* ── Tables / data ── */
+  #d1  { font-size: 15px; padding-left: 10px; width: 95%; }
+  #d13 {
+    font-size: 15px;
+    padding-left: 10px;
+    white-space: normal;   /* allow wrapping on tiny screens */
+  }
+  #d3  { width: 95%; }
+  #oio { flex-direction: column; gap: 14px; padding-left: 6px; }
+  #rrr { flex-wrap: wrap; gap: 8px; padding-top: 10px; }
+  #uuu { width: 98%; margin-left: 4px; height: auto; }
+
+  /* ── Register / login misc ── */
+  #c16 { padding-left: 8px; padding-top: 20px; }
+
+  /* ── Dashboard ── */
+  #g   { width: 98%; margin-left: 4px; height: auto; }
+  #g2  { width: 95%; margin-left: 6px; }
+  #g4  { width: 98%; margin-left: 4px; height: auto; }
+  #g5  { font-size: 24px; height: auto; }
+  #g6  { margin-left: 10px; margin-right: 10px; font-size: 16px; }
+
+  /* ── Buttons (global) ── */
+  button { font-size: 13px; padding: 6px 10px; }
+
+  /* ── Pop-up modal ── */
+  .pop {
+    width: 95%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  /* ── Feature list ── */
+  .custom-height { width: 98%; height: auto; line-height: 36px; }
+  .feature-list  { margin-top: 14px; }
+  .feature-item  { font-size: 13px; padding: 12px 14px; margin-bottom: 12px; }
 }
